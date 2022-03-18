@@ -36,7 +36,7 @@ module OmniAuth
       end
 
       uid do
-        access_token.params['info']['uuid']
+        access_token.params['info']['team_uuid']
       end
 
       info do
